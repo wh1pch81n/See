@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <B/B.h>
+#import <Bee/Bee.h>
 
 @interface ViewController : BB
 

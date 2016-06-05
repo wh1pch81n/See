@@ -7,7 +7,10 @@
 //
 
 #import "ViewController.h"
+//@import A;
 #import <A/A.h>
+#import <B/B.h>
+#import <Bee/Bee.h>
 
 @interface ViewController ()
 
@@ -19,8 +22,11 @@
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	[self AAA];
-	[[Filezz new] File_eggs];
-	[self AAA_egs];
+//	[[Filezz new] File_eggs];
+//	[self AAA_egs];
+	
+	[[BeeMo new] setAhh:[AA new]];
+	
 }
 
 - (void)didReceiveMemoryWarning {

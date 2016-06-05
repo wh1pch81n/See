@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2F2634781D03FA2A00D31C13 /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2634771D03FA2A00D31C13 /* A.framework */; };
 		2F2634791D03FA2B00D31C13 /* A.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2634771D03FA2A00D31C13 /* A.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2F2634BE1D04BD3900D31C13 /* Bee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2634BA1D04BB4500D31C13 /* Bee.framework */; };
+		2F2634BF1D04BD3900D31C13 /* Bee.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2634BA1D04BB4500D31C13 /* Bee.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DB51F4C31D03D8840087EB77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4C21D03D8840087EB77 /* main.m */; };
 		DB51F4C61D03D8840087EB77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4C51D03D8840087EB77 /* AppDelegate.m */; };
 		DB51F4C91D03D8840087EB77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4C81D03D8840087EB77 /* ViewController.m */; };
@@ -26,6 +28,13 @@
 			containerPortal = 2F2634B51D04BB4500D31C13 /* Bee.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2F26348A1D04B75100D31C13;
+			remoteInfo = Bee;
+		};
+		2F2634C01D04BD3900D31C13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F2634B51D04BB4500D31C13 /* Bee.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F2634891D04B75100D31C13;
 			remoteInfo = Bee;
 		};
 		DB51F4D81D03D8840087EB77 /* PBXContainerItemProxy */ = {
@@ -66,6 +75,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				2F2634791D03FA2B00D31C13 /* A.framework in Embed Frameworks */,
+				2F2634BF1D04BD3900D31C13 /* Bee.framework in Embed Frameworks */,
 				DB51F4F11D03DA720087EB77 /* B.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -99,6 +109,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F2634781D03FA2A00D31C13 /* A.framework in Frameworks */,
+				2F2634BE1D04BD3900D31C13 /* Bee.framework in Frameworks */,
 				DB51F4F01D03DA720087EB77 /* B.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +220,7 @@
 			);
 			dependencies = (
 				DB51F4F31D03DA720087EB77 /* PBXTargetDependency */,
+				2F2634C11D04BD3900D31C13 /* PBXTargetDependency */,
 			);
 			name = See;
 			productName = See;
@@ -346,6 +358,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2F2634C11D04BD3900D31C13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bee;
+			targetProxy = 2F2634C01D04BD3900D31C13 /* PBXContainerItemProxy */;
+		};
 		DB51F4D91D03D8840087EB77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DB51F4BD1D03D8840087EB77 /* See */;
