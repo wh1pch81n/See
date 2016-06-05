@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F2634781D03FA2A00D31C13 /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2634771D03FA2A00D31C13 /* A.framework */; };
+		2F2634791D03FA2B00D31C13 /* A.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2634771D03FA2A00D31C13 /* A.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DB51F4C31D03D8840087EB77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4C21D03D8840087EB77 /* main.m */; };
 		DB51F4C61D03D8840087EB77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4C51D03D8840087EB77 /* AppDelegate.m */; };
 		DB51F4C91D03D8840087EB77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4C81D03D8840087EB77 /* ViewController.m */; };
@@ -16,8 +18,6 @@
 		DB51F4DC1D03D8840087EB77 /* SeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4DB1D03D8840087EB77 /* SeeTests.m */; };
 		DB51F4F01D03DA720087EB77 /* B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB51F4ED1D03DA5B0087EB77 /* B.framework */; };
 		DB51F4F11D03DA720087EB77 /* B.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB51F4ED1D03DA5B0087EB77 /* B.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DB51F5041D03DCA00087EB77 /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB51F5031D03DCA00087EB77 /* A.framework */; };
-		DB51F5051D03DCA00087EB77 /* A.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB51F5031D03DCA00087EB77 /* A.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DB51F5051D03DCA00087EB77 /* A.framework in Embed Frameworks */,
+				2F2634791D03FA2B00D31C13 /* A.framework in Embed Frameworks */,
 				DB51F4F11D03DA720087EB77 /* B.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -67,6 +67,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F2634711D03F23A00D31C13 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2F2634771D03FA2A00D31C13 /* A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = A.framework; path = "../Debug-iphonesimulator/A.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB51F4BE1D03D8840087EB77 /* See.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = See.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB51F4C21D03D8840087EB77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB51F4C41D03D8840087EB77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,7 +83,6 @@
 		DB51F4DB1D03D8840087EB77 /* SeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeeTests.m; sourceTree = "<group>"; };
 		DB51F4DD1D03D8840087EB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB51F4E71D03DA5B0087EB77 /* B.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = B.xcodeproj; path = B/B.xcodeproj; sourceTree = "<group>"; };
-		DB51F5031D03DCA00087EB77 /* A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB51F5041D03DCA00087EB77 /* A.framework in Frameworks */,
+				2F2634781D03FA2A00D31C13 /* A.framework in Frameworks */,
 				DB51F4F01D03DA720087EB77 /* B.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +129,7 @@
 			children = (
 				DB51F4C41D03D8840087EB77 /* AppDelegate.h */,
 				DB51F4C51D03D8840087EB77 /* AppDelegate.m */,
+				2F2634711D03F23A00D31C13 /* PrefixHeader.pch */,
 				DB51F4C71D03D8840087EB77 /* ViewController.h */,
 				DB51F4C81D03D8840087EB77 /* ViewController.m */,
 				DB51F4CA1D03D8840087EB77 /* Main.storyboard */,
@@ -159,7 +161,7 @@
 		DB51F4E61D03DA440087EB77 /* Dependency */ = {
 			isa = PBXGroup;
 			children = (
-				DB51F5031D03DCA00087EB77 /* A.framework */,
+				2F2634771D03FA2A00D31C13 /* A.framework */,
 				DB51F4E71D03DA5B0087EB77 /* B.xcodeproj */,
 			);
 			name = Dependency;
@@ -436,8 +438,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/See/PrefixHeader.pch";
 				INFOPLIST_FILE = See/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WebMD.See;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -447,8 +452,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/See/PrefixHeader.pch";
 				INFOPLIST_FILE = See/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WebMD.See;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

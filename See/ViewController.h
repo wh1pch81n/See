@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@import B;
+#import <B/B.h>
 
 @interface ViewController : BB
 
