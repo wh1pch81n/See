@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F2634781D03FA2A00D31C13 /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2634771D03FA2A00D31C13 /* A.framework */; };
-		2F2634791D03FA2B00D31C13 /* A.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2634771D03FA2A00D31C13 /* A.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2F2634BE1D04BD3900D31C13 /* Bee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2634BA1D04BB4500D31C13 /* Bee.framework */; };
-		2F2634BF1D04BD3900D31C13 /* Bee.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2634BA1D04BB4500D31C13 /* Bee.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DB51F4C31D03D8840087EB77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4C21D03D8840087EB77 /* main.m */; };
 		DB51F4C61D03D8840087EB77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4C51D03D8840087EB77 /* AppDelegate.m */; };
 		DB51F4C91D03D8840087EB77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4C81D03D8840087EB77 /* ViewController.m */; };
@@ -18,25 +14,15 @@
 		DB51F4CE1D03D8840087EB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB51F4CD1D03D8840087EB77 /* Assets.xcassets */; };
 		DB51F4D11D03D8840087EB77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB51F4CF1D03D8840087EB77 /* LaunchScreen.storyboard */; };
 		DB51F4DC1D03D8840087EB77 /* SeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4DB1D03D8840087EB77 /* SeeTests.m */; };
-		DB51F4F01D03DA720087EB77 /* B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB51F4ED1D03DA5B0087EB77 /* B.framework */; };
-		DB51F4F11D03DA720087EB77 /* B.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB51F4ED1D03DA5B0087EB77 /* B.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBAAA0161D05B1EF0051457B /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAAA0151D05B1EF0051457B /* A.framework */; };
+		DBAAA0171D05B1EF0051457B /* A.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBAAA0151D05B1EF0051457B /* A.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBAAA0191D05B1F70051457B /* Bee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAAA0181D05B1F70051457B /* Bee.framework */; };
+		DBAAA01A1D05B1F70051457B /* Bee.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBAAA0181D05B1F70051457B /* Bee.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBAAA01C1D05B1FE0051457B /* B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAAA01B1D05B1FE0051457B /* B.framework */; };
+		DBAAA01D1D05B1FE0051457B /* B.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBAAA01B1D05B1FE0051457B /* B.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2F2634B91D04BB4500D31C13 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2F2634B51D04BB4500D31C13 /* Bee.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2F26348A1D04B75100D31C13;
-			remoteInfo = Bee;
-		};
-		2F2634C01D04BD3900D31C13 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2F2634B51D04BB4500D31C13 /* Bee.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 2F2634891D04B75100D31C13;
-			remoteInfo = Bee;
-		};
 		DB51F4D81D03D8840087EB77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DB51F4B61D03D8840087EB77 /* Project object */;
@@ -44,39 +30,18 @@
 			remoteGlobalIDString = DB51F4BD1D03D8840087EB77;
 			remoteInfo = See;
 		};
-		DB51F4EC1D03DA5B0087EB77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB51F4E71D03DA5B0087EB77 /* B.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DB51F4971D03D81B0087EB77;
-			remoteInfo = B;
-		};
-		DB51F4EE1D03DA5B0087EB77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB51F4E71D03DA5B0087EB77 /* B.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DB51F4A11D03D81B0087EB77;
-			remoteInfo = BTests;
-		};
-		DB51F4F21D03DA720087EB77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB51F4E71D03DA5B0087EB77 /* B.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = DB51F4961D03D81B0087EB77;
-			remoteInfo = B;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DB51F4F41D03DA720087EB77 /* Embed Frameworks */ = {
+		DBAAA00E1D05B1D30051457B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2F2634791D03FA2B00D31C13 /* A.framework in Embed Frameworks */,
-				2F2634BF1D04BD3900D31C13 /* Bee.framework in Embed Frameworks */,
-				DB51F4F11D03DA720087EB77 /* B.framework in Embed Frameworks */,
+				DBAAA0171D05B1EF0051457B /* A.framework in Embed Frameworks */,
+				DBAAA01D1D05B1FE0051457B /* B.framework in Embed Frameworks */,
+				DBAAA01A1D05B1F70051457B /* Bee.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,8 +50,6 @@
 
 /* Begin PBXFileReference section */
 		2F2634711D03F23A00D31C13 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		2F2634771D03FA2A00D31C13 /* A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = A.framework; path = "../Debug-iphonesimulator/A.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F2634B51D04BB4500D31C13 /* Bee.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Bee.xcodeproj; path = Bee/Bee.xcodeproj; sourceTree = "<group>"; };
 		DB51F4BE1D03D8840087EB77 /* See.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = See.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB51F4C21D03D8840087EB77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB51F4C41D03D8840087EB77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,7 +63,9 @@
 		DB51F4D71D03D8840087EB77 /* SeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB51F4DB1D03D8840087EB77 /* SeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeeTests.m; sourceTree = "<group>"; };
 		DB51F4DD1D03D8840087EB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB51F4E71D03DA5B0087EB77 /* B.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = B.xcodeproj; path = B/B.xcodeproj; sourceTree = "<group>"; };
+		DBAAA0151D05B1EF0051457B /* A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAAA0181D05B1F70051457B /* Bee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Bee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAAA01B1D05B1FE0051457B /* B.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = B.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F2634781D03FA2A00D31C13 /* A.framework in Frameworks */,
-				2F2634BE1D04BD3900D31C13 /* Bee.framework in Frameworks */,
-				DB51F4F01D03DA720087EB77 /* B.framework in Frameworks */,
+				DBAAA0161D05B1EF0051457B /* A.framework in Frameworks */,
+				DBAAA01C1D05B1FE0051457B /* B.framework in Frameworks */,
+				DBAAA0191D05B1F70051457B /* Bee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,17 +89,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F2634B61D04BB4500D31C13 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2F2634BA1D04BB4500D31C13 /* Bee.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		DB51F4B51D03D8840087EB77 = {
 			isa = PBXGroup;
 			children = (
+				DBAAA01B1D05B1FE0051457B /* B.framework */,
+				DBAAA0181D05B1F70051457B /* Bee.framework */,
+				DBAAA0151D05B1EF0051457B /* A.framework */,
 				DB51F4E61D03DA440087EB77 /* Dependency */,
 				DB51F4C01D03D8840087EB77 /* See */,
 				DB51F4DA1D03D8840087EB77 /* SeeTests */,
@@ -188,20 +148,8 @@
 		DB51F4E61D03DA440087EB77 /* Dependency */ = {
 			isa = PBXGroup;
 			children = (
-				2F2634771D03FA2A00D31C13 /* A.framework */,
-				2F2634B51D04BB4500D31C13 /* Bee.xcodeproj */,
-				DB51F4E71D03DA5B0087EB77 /* B.xcodeproj */,
 			);
 			name = Dependency;
-			sourceTree = "<group>";
-		};
-		DB51F4E81D03DA5B0087EB77 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DB51F4ED1D03DA5B0087EB77 /* B.framework */,
-				DB51F4EF1D03DA5B0087EB77 /* BTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,13 +162,11 @@
 				DB51F4BA1D03D8840087EB77 /* Sources */,
 				DB51F4BB1D03D8840087EB77 /* Frameworks */,
 				DB51F4BC1D03D8840087EB77 /* Resources */,
-				DB51F4F41D03DA720087EB77 /* Embed Frameworks */,
+				DBAAA00E1D05B1D30051457B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DB51F4F31D03DA720087EB77 /* PBXTargetDependency */,
-				2F2634C11D04BD3900D31C13 /* PBXTargetDependency */,
 			);
 			name = See;
 			productName = See;
@@ -274,16 +220,6 @@
 			mainGroup = DB51F4B51D03D8840087EB77;
 			productRefGroup = DB51F4BF1D03D8840087EB77 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = DB51F4E81D03DA5B0087EB77 /* Products */;
-					ProjectRef = DB51F4E71D03DA5B0087EB77 /* B.xcodeproj */;
-				},
-				{
-					ProductGroup = 2F2634B61D04BB4500D31C13 /* Products */;
-					ProjectRef = 2F2634B51D04BB4500D31C13 /* Bee.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				DB51F4BD1D03D8840087EB77 /* See */,
@@ -291,30 +227,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		2F2634BA1D04BB4500D31C13 /* Bee.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Bee.framework;
-			remoteRef = 2F2634B91D04BB4500D31C13 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DB51F4ED1D03DA5B0087EB77 /* B.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = B.framework;
-			remoteRef = DB51F4EC1D03DA5B0087EB77 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DB51F4EF1D03DA5B0087EB77 /* BTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = BTests.xctest;
-			remoteRef = DB51F4EE1D03DA5B0087EB77 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DB51F4BC1D03D8840087EB77 /* Resources */ = {
@@ -358,20 +270,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2F2634C11D04BD3900D31C13 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Bee;
-			targetProxy = 2F2634C01D04BD3900D31C13 /* PBXContainerItemProxy */;
-		};
 		DB51F4D91D03D8840087EB77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DB51F4BD1D03D8840087EB77 /* See */;
 			targetProxy = DB51F4D81D03D8840087EB77 /* PBXContainerItemProxy */;
-		};
-		DB51F4F31D03DA720087EB77 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = B;
-			targetProxy = DB51F4F21D03DA720087EB77 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -483,7 +385,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/A/build/Debug-iphoneos",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/See/PrefixHeader.pch";
 				INFOPLIST_FILE = See/Info.plist;
@@ -497,7 +402,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/A/build/Debug-iphoneos",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/See/PrefixHeader.pch";
 				INFOPLIST_FILE = See/Info.plist;

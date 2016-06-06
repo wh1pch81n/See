@@ -4,3 +4,6 @@
 [submodule "Bee"]
 	path = Bee
 	url = https://github.com/wh1pch81n/Bee.git
+[submodule "A"]
+	path = A
+	url = https://www.github.com/wh1pch81n/A.git

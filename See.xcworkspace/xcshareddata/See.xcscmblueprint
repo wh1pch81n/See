@@ -1,0 +1,42 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FBBA4C060B3999CBDF218A71DDE7432B9CC30C33",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FBBA4C060B3999CBDF218A71DDE7432B9CC30C33" : 0,
+    "CDBBB383BC807B09FFADCF2C8D287CC368E50B32" : 0,
+    "182C6F347E0B758367DCFC497ADE807E873F158A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DA01988D-AB5A-4247-BBCB-E37329BB6CEF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FBBA4C060B3999CBDF218A71DDE7432B9CC30C33" : "See\/",
+    "CDBBB383BC807B09FFADCF2C8D287CC368E50B32" : "See\/B\/",
+    "182C6F347E0B758367DCFC497ADE807E873F158A" : "See\/Bee\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "See",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "See.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/A.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "182C6F347E0B758367DCFC497ADE807E873F158A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/Bee.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "182C6F347E0B758367DCFC497ADE807E873F158A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/B.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CDBBB383BC807B09FFADCF2C8D287CC368E50B32"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/See.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FBBA4C060B3999CBDF218A71DDE7432B9CC30C33"
+    }
+  ]
+}
