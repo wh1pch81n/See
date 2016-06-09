@@ -8,8 +8,8 @@
 
 #import "ViewController.h"
 //@import A;
-#import <A/A.h>
-#import <B/B.h>
+//#import <A/A.h>
+//#import <B/B.h>
 #import <Bee/Bee.h>
 
 @interface ViewController ()
@@ -17,6 +17,8 @@
 @end
 
 @implementation ViewController
+//@synthesize sayIt = _sayIt;
+
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
@@ -27,6 +29,14 @@
 	
 	[[BeeMo new] setAhh:[AA new]];
 	
+	[self thisIsASwiftMethod];
+	NSLog(@"rikko %@", self.sayIt);
+	self.sayIt = @"aaaaaaiiiiii";
+	NSLog(@"fonzie %@", self.sayIt);
+	
+	self[@"_sayIt"] = @"sup";
+	NSLog(@"eminem %@", self.sayIt);
+
 }
 
 - (void)didReceiveMemoryWarning {
