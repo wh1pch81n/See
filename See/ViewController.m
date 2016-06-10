@@ -23,20 +23,27 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-	[self AAA];
-//	[[Filezz new] File_eggs];
-//	[self AAA_egs];
+//	[self AAA];
+////	[[Filezz new] File_eggs];
+////	[self AAA_egs];
+//	
+//	[[BeeMo new] setAhh:[AA new]];
+//	
+//	[self thisIsASwiftMethod];
+//	NSLog(@"rikko %@", self.sayIt);
+//	self.sayIt = @"aaaaaaiiiiii";
+//	NSLog(@"fonzie %@", self.sayIt);
+//	
+//	self[@"_sayIt"] = @"sup";
+//	NSLog(@"eminem %@", self.sayIt);
 	
-	[[BeeMo new] setAhh:[AA new]];
+	[[Cool new] magic:@"" fff:@""];
+	[[CoolDude new] magic:@"" fff:@""];
+	Class c = [self superclass];
+	[c superclass];
 	
-	[self thisIsASwiftMethod];
-	NSLog(@"rikko %@", self.sayIt);
-	self.sayIt = @"aaaaaaiiiiii";
-	NSLog(@"fonzie %@", self.sayIt);
-	
-	self[@"_sayIt"] = @"sup";
-	NSLog(@"eminem %@", self.sayIt);
-
+	NSLog(@"%@", DHLocalizedString(@"keyblade", @"kingdomhearts", @"", self));
+	NSLog(@"%@", DHLocalizedString(@"keyblade", @"kingdomhearts", @"", [CoolDude new]));
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0253721D0A6780004BB55F /* kingdomhearts.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F0253711D0A6780004BB55F /* kingdomhearts.strings */; };
 		2F62577C1D09147400698E89 /* B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F62577B1D09147400698E89 /* B.framework */; };
 		2F62577D1D09147400698E89 /* B.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F62577B1D09147400698E89 /* B.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2F62577F1D09147900698E89 /* Bee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F62577E1D09147900698E89 /* Bee.framework */; };
@@ -50,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F0253711D0A6780004BB55F /* kingdomhearts.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = kingdomhearts.strings; sourceTree = "<group>"; };
 		2F2634711D03F23A00D31C13 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		2F62577B1D09147400698E89 /* B.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = B.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F62577E1D09147900698E89 /* Bee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Bee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 				DB51F4C81D03D8840087EB77 /* ViewController.m */,
 				2F6257871D091AA000698E89 /* File.swift */,
 				DB51F4CA1D03D8840087EB77 /* Main.storyboard */,
+				2F0253711D0A6780004BB55F /* kingdomhearts.strings */,
 				DB51F4CD1D03D8840087EB77 /* Assets.xcassets */,
 				DB51F4CF1D03D8840087EB77 /* LaunchScreen.storyboard */,
 				DB51F4D21D03D8840087EB77 /* Info.plist */,
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB51F4D11D03D8840087EB77 /* LaunchScreen.storyboard in Resources */,
+				2F0253721D0A6780004BB55F /* kingdomhearts.strings in Resources */,
 				DB51F4CE1D03D8840087EB77 /* Assets.xcassets in Resources */,
 				DB51F4CC1D03D8840087EB77 /* Main.storyboard in Resources */,
 			);
