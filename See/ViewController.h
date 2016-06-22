@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import <B/B.h>
+//@import B;
 
 @interface ViewController : BB
 

@@ -29,7 +29,7 @@
 //	
 //	[[BeeMo new] setAhh:[AA new]];
 //	
-//	[self thisIsASwiftMethod];
+	[self thisIsASwiftMethod];
 //	NSLog(@"rikko %@", self.sayIt);
 //	self.sayIt = @"aaaaaaiiiiii";
 //	NSLog(@"fonzie %@", self.sayIt);

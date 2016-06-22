@@ -4,19 +4,25 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "182C6F347E0B758367DCFC497ADE807E873F158A+++3DA3271" : 0,
-    "182C6F347E0B758367DCFC497ADE807E873F158A+++D5EEF6A" : 0,
+    "CDBBB383BC807B09FFADCF2C8D287CC368E50B32+++9DB93F5" : 0,
+    "182C6F347E0B758367DCFC497ADE807E873F158A+++C00F56B" : 0,
     "182C6F347E0B758367DCFC497ADE807E873F158A+++8F00A21" : 0,
+    "182C6F347E0B758367DCFC497ADE807E873F158A+++D5EEF6A" : 0,
+    "CDBBB383BC807B09FFADCF2C8D287CC368E50B32+++1A579EE" : 0,
+    "182C6F347E0B758367DCFC497ADE807E873F158A+++3DA3271" : 0,
     "FBBA4C060B3999CBDF218A71DDE7432B9CC30C33+++3B8968E" : 0,
-    "CDBBB383BC807B09FFADCF2C8D287CC368E50B32+++1A579EE" : 0
+    "182C6F347E0B758367DCFC497ADE807E873F158A+++7ED3AA1" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DA01988D-AB5A-4247-BBCB-E37329BB6CEF",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "182C6F347E0B758367DCFC497ADE807E873F158A+++3DA3271" : "See\/Bee\/",
-    "182C6F347E0B758367DCFC497ADE807E873F158A+++D5EEF6A" : "See\/Bee\/",
+    "CDBBB383BC807B09FFADCF2C8D287CC368E50B32+++9DB93F5" : "B\/",
+    "182C6F347E0B758367DCFC497ADE807E873F158A+++C00F56B" : "A\/",
     "182C6F347E0B758367DCFC497ADE807E873F158A+++8F00A21" : "See\/A\/",
+    "182C6F347E0B758367DCFC497ADE807E873F158A+++D5EEF6A" : "See\/Bee\/",
+    "CDBBB383BC807B09FFADCF2C8D287CC368E50B32+++1A579EE" : "See\/B\/",
+    "182C6F347E0B758367DCFC497ADE807E873F158A+++3DA3271" : "See\/Bee\/",
     "FBBA4C060B3999CBDF218A71DDE7432B9CC30C33+++3B8968E" : "See\/",
-    "CDBBB383BC807B09FFADCF2C8D287CC368E50B32+++1A579EE" : "See\/B\/"
+    "182C6F347E0B758367DCFC497ADE807E873F158A+++7ED3AA1" : "Bee\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "See",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -28,9 +34,19 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "182C6F347E0B758367DCFC497ADE807E873F158A+++3DA3271"
     },
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/Bee.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "182C6F347E0B758367DCFC497ADE807E873F158A+++7ED3AA1"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/www.github.com\/wh1pch81n\/A.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "182C6F347E0B758367DCFC497ADE807E873F158A+++8F00A21"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/A.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "182C6F347E0B758367DCFC497ADE807E873F158A+++C00F56B"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/A.git",
@@ -41,6 +57,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/B.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CDBBB383BC807B09FFADCF2C8D287CC368E50B32+++1A579EE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/B.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CDBBB383BC807B09FFADCF2C8D287CC368E50B32+++9DB93F5"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/See.git",
